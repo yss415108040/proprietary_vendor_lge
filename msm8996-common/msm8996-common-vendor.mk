@@ -68,15 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/EtsiEaacPlusEncAndCmnModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/EtsiEaacPlusEncAndCmnModule.so.1 \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/HeaacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/HeaacDecoderModule.so.1 \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/SAPlusCmnModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/SAPlusCmnModule.so.1 \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/fastrpc_shell_0:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/fastrpc_shell_0 \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/fluence_voiceplus_module.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/fluence_voiceplus_module.so.1 \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/libsysmon_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/libsysmon_skel.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/map_SHARED_LIBS_AAAAAAAAQ.txt:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/map_SHARED_LIBS_AAAAAAAAQ.txt \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/map_avs_shared_libs.txt:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/map_avs_shared_libs.txt \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/dsp/mmecns_module.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/dsp/mmecns_module.so.1 \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
