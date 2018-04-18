@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/lib/libpcas.so:system/lib/libpcas.so \
     vendor/lge/joan-common/proprietary/lib/libpparam.so:system/lib/libpparam.so \
     vendor/lge/joan-common/proprietary/lib/libril_wrapper.so:system/lib/libril_wrapper.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvolumevibratorcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolumevibratorcallback.so \
     vendor/lge/joan-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/joan-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/joan-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
@@ -73,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/lib64/libpparam.so:system/lib64/libpparam.so \
     vendor/lge/joan-common/proprietary/lib64/libril_wrapper.so:system/lib64/libril_wrapper.so \
     vendor/lge/joan-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvolumevibratorcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvolumevibratorcallback.so \
     vendor/lge/joan-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/joan-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
     vendor/lge/joan-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
