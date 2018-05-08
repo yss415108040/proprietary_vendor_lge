@@ -17,75 +17,75 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/vendor/bin/immvibed:$(TARGET_COPY_OUT_VENDOR)/bin/immvibed \
     vendor/lge/joan-common/proprietary/vendor/firmware/Tfa9872.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9872.cnt \
-    vendor/lge/joan-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/lge/joan-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/lge/joan-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/lge/joan-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/lge/joan-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lge/joan-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/lge/joan-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/lge/joan-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/lge/joan-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/lge/joan-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/lge/joan-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/lge/joan-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/lge/joan-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv.img \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/lge/joan-common/proprietary/vendor/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
+    vendor/lge/joan-common/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
+    vendor/lge/joan-common/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/lge/joan-common/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
-    vendor/lge/joan-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lge/joan-common/proprietary/etc/wifi/bdwlan.bin:system/etc/wifi/bdwlan.bin \
-    vendor/lge/joan-common/proprietary/etc/wifi/bdwlan_ch0.bin:system/etc/wifi/bdwlan_ch0.bin \
-    vendor/lge/joan-common/proprietary/etc/wifi/bdwlan_ch1.bin:system/etc/wifi/bdwlan_ch1.bin \
-    vendor/lge/joan-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/lge/joan-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/joan-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/lge/joan-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/joan-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/lge/joan-common/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
+    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch0.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch1.bin \
+    vendor/lge/joan-common/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
+    vendor/lge/joan-common/proprietary/vendor/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
+    vendor/lge/joan-common/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/lge/joan-common/proprietary/vendor/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.jar \
+    vendor/lge/joan-common/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/lge/joan-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/lge/joan-common/proprietary/vendor/lib/hw/vibrator.joan.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.joan.so \
     vendor/lge/joan-common/proprietary/vendor/lib/libImmVibeJ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libImmVibeJ.so \
     vendor/lge/joan-common/proprietary/vendor/lib/libimmvibeandroidmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimmvibeandroidmanager.so \
-    vendor/lge/joan-common/proprietary/lib/libpcas.so:system/lib/libpcas.so \
-    vendor/lge/joan-common/proprietary/lib/libpparam.so:system/lib/libpparam.so \
-    vendor/lge/joan-common/proprietary/lib/libril_wrapper.so:system/lib/libril_wrapper.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libpcas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcas.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libpparam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpparam.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libril_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril_wrapper.so \
     vendor/lge/joan-common/proprietary/vendor/lib/libvolumevibratorcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolumevibratorcallback.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
-    vendor/lge/joan-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
-    vendor/lge/joan-common/proprietary/lib/vendor.lge.hardware.radio@1.0.so:system/lib/vendor.lge.hardware.radio@1.0.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_common_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_common_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_dmi_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_dmi_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_gnss_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_gnss_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_ims_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_ims_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_resim_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_resim_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_resim_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_resim_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libvss_resim_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_resim_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/vendor.lge.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.radio@1.0.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/hw/vibrator.joan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.joan.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/libImmVibeJ.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libImmVibeJ.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/libimmvibeandroidmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimmvibeandroidmanager.so \
-    vendor/lge/joan-common/proprietary/lib64/libpcas.so:system/lib64/libpcas.so \
-    vendor/lge/joan-common/proprietary/lib64/libpparam.so:system/lib64/libpparam.so \
-    vendor/lge/joan-common/proprietary/lib64/libril_wrapper.so:system/lib64/libril_wrapper.so \
-    vendor/lge/joan-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libpcas.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcas.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libpparam.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpparam.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libril_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_wrapper.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libuicc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuicc.so \
     vendor/lge/joan-common/proprietary/vendor/lib64/libvolumevibratorcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvolumevibratorcallback.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_gnss_qcci.so:system/lib64/libvss_gnss_qcci.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_ims_qcci.so:system/lib64/libvss_ims_qcci.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_nv_core.so:system/lib64/libvss_nv_core.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_nv_idl.so:system/lib64/libvss_nv_idl.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
-    vendor/lge/joan-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
-    vendor/lge/joan-common/proprietary/lib64/vendor.lge.hardware.radio@1.0.so:system/lib64/vendor.lge.hardware.radio@1.0.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_bsp_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_bsp_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_common_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_common_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_dmi_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_dmi_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_gnss_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_gnss_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_ims_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_ims_qcci.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_resim_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_resim_core.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_resim_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_resim_idl.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libvss_resim_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_resim_iface.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/vendor.lge.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.radio@1.0.so \
     vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin \
     vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin \
     vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin \
@@ -933,10 +933,10 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     QtiTelephonyService \
+    SVIService \
+    TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentTGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     qcrilmsgtunnel \
-    SVIService \
-    TimeService \
     ReferenceFeature
