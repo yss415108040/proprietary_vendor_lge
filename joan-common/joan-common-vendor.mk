@@ -937,6 +937,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentTGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
     qcrilmsgtunnel \
     ReferenceFeature
