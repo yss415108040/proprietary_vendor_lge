@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/lge/joan-common/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/lge/joan-common/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
-    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
-    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch0.bin \
-    vendor/lge/joan-common/proprietary/vendor/etc/wifi/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch1.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/wifi/q/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wifi/q/bdwlan.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/wifi/q/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wifi/q/bdwlan_ch0.bin \
+    vendor/lge/joan-common/proprietary/vendor/etc/firmware/wifi/q/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wifi/q/bdwlan_ch1.bin \
     vendor/lge/joan-common/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/joan-common/proprietary/vendor/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
     vendor/lge/joan-common/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -937,5 +937,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentTGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     qcrilmsgtunnel \
     ReferenceFeature
