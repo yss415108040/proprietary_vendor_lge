@@ -150,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/lge/joan-common/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/lge/joan-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
-    vendor/lge/joan-common/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/lge/joan-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lge/joan-common/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/lge/joan-common/proprietary/vendor/bin/qvop-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qvop-daemon \
@@ -1026,11 +1025,11 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     ims \
     imssettings \
-    QtiTelephonyService \
-    SVIService \
-    TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentTGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    QtiTelephonyService \
+    SVIService \
+    TimeService \
     qcrilmsgtunnel \
     ReferenceFeature
