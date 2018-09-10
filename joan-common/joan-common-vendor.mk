@@ -242,7 +242,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/vendor/firmware/crbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/crbtfw21.tlv \
     vendor/lge/joan-common/proprietary/vendor/firmware/crnv20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv20.bin \
     vendor/lge/joan-common/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin \
-    vendor/lge/joan-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libpn548ad_fw_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn548ad_fw_64.so \
     vendor/lge/joan-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/lge/joan-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/lge/joan-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
