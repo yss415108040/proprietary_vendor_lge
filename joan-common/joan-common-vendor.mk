@@ -16,6 +16,12 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/vendor/bin/immvibed:$(TARGET_COPY_OUT_VENDOR)/bin/immvibed \
+	vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin \
+    vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin \
+    vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin \
+    vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data2.bin \
+    vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin \
+    vendor/lge/joan-common/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin \
     vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv.bin \
     vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_1.3.bin \
     vendor/lge/joan-common/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_2.1.bin \
