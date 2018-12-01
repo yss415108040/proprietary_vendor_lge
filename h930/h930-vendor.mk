@@ -16,6 +16,15 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/h930/proprietary/vendor/firmware/Tfa9872.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9872.cnt \
+    vendor/lge/h930/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
     vendor/lge/h930/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/lge/h930/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/lge/h930/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
@@ -49,4 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h930/proprietary/vendor/firmware/crbtfw20.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/crbtfw20.tlv \
     vendor/lge/h930/proprietary/vendor/firmware/crbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/crbtfw21.tlv \
     vendor/lge/h930/proprietary/vendor/firmware/crnv20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv20.bin \
-    vendor/lge/h930/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin
+    vendor/lge/h930/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin \
+    vendor/lge/h930/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/lge/h930/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/lge/h930/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
+    vendor/lge/h930/proprietary/vendor/lib64/libpn548ad_fw_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn548ad_fw_64.so
