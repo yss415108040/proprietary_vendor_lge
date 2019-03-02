@@ -926,11 +926,11 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
+    QtiTelephonyService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentTGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    QtiTelephonyService \
+    qcrilmsgtunnel \
     SVIService \
     TimeService \
-    qcrilmsgtunnel \
     ReferenceFeature
