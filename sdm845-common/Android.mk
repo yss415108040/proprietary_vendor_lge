@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter h930 h932,$(TARGET_DEVICE)),)
+ifneq ($(filter judyln judypn,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
