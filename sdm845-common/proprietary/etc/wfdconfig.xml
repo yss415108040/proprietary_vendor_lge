@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2017 Qualcomm Technologies, Inc.
+        Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -152,7 +152,7 @@
             <FrameInterval>0</FrameInterval>
         </FrameSkipping>
 
-        <!--  enable HDCP by default -->
+        <!--  disable HDCP by default -->
         <ContentProtection>
             <Valid>1</Valid>
             <!--
@@ -173,7 +173,7 @@
         <LgCapability>
             <Valid>1</Valid>
             <Version>2</Version>
-            <LgOverlay>0</LgOverlay>
+            <LgOverlay>1</LgOverlay>
         </LgCapability>
 
         <LgTSMonitor>
@@ -186,8 +186,8 @@
         -->
         <RTPDumpEnable>
             <!-- DEPRECATED -->
-            <!-- For enabling RTP encoder dumping
-                 persist.sys.enable_RTPDumps to  1
+            <!-- For enabling RTP encoder dumping set
+                 persist.vendor.debug.rtp.enable_dump to 1
                  /data/media/dump.ts
             -->
         </RTPDumpEnable>
